@@ -2,7 +2,7 @@
   <div>
     <!-- carousel -->
     <v-row justify="center">
-      <v-col cols="12" sm="12" md="12">
+      <v-col cols="12" sm="12">
         <v-carousel v-model="model" height="500" hide-delimiter-background>
           <v-carousel-item
             v-for="(image, index) in carouselImages"
@@ -19,16 +19,16 @@
     </v-row>
     <!-- big two button -->
     <v-row class="mt-4">
-      <v-col cols="12" sm="6" md="6">
+      <v-col cols="12" sm="6" >
         <v-btn block color="orange" class="white--text rounded-lg" height="70">
           <v-icon class="mr-2" size="40">mdi-car-2-plus</v-icon>
-          <div style="font-size: 25px">ຊື້ລົດມືສອງ</div>
+          <div style="font-size: 20px">ຊື້ລົດມືສອງ</div>
         </v-btn>
       </v-col>
-      <v-col cols="12" sm="6" md="6">
+      <v-col cols="12" sm="6">
         <v-btn block color="green" class="white--text rounded-lg" height="70">
           <v-icon class="mr-2" size="40">mdi-car-arrow-right</v-icon>
-          <div style="font-size: 25px">ຂາຍລົດຂອງທ່ານ</div>
+          <div style="font-size: 20px">ຂາຍລົດຂອງທ່ານ</div>
         </v-btn>
       </v-col>
     </v-row>
@@ -109,7 +109,7 @@
 
     <!-- list item -->
     <v-row>
-      <v-col v-for="n in 4" :key="n" cols="12" sm="3" md="3" class="">
+      <v-col v-for="n in 4" :key="n" cols="12" sm="3" class="">
         <v-card-title>
           <a href="/car-toyota" title="ຂາຍລົດ Toyota ມືສອງ ສະພາຍດີ"
             >ຂາຍລົດ Toyota ມືສອງ ສະພາບດີ</a

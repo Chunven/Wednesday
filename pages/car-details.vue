@@ -58,7 +58,7 @@
           <v-divider class="mb-6 mt-6"></v-divider>
           <div class="">
             <v-row>
-              <v-col cols="6" md="12" sm="12">
+              <v-col cols="6" sm="12">
                 <v-list-item>
                   <v-list-item-content>
                     <h3 class="mb-6">ລາຄາ: <b>35.000 USD</b></h3>
@@ -85,7 +85,7 @@
           </div>
           <v-divider class="mb-6 mt-6"></v-divider>
           <v-row>
-            <v-col cols="12" md="12" sm="12">
+            <v-col cols="12" sm="12">
               <div class="ma-2">
                 <v-row align="center" class="social-link">
                   <v-col cols="12" sm="12">
@@ -100,7 +100,7 @@
                 </v-row>
               </div>
               <div class="buy-product">
-                <v-col cols="12" sm="6" md="6">
+                <v-col cols="12" sm="6">
                   <div class="mt-4">
                     <v-btn block class="ml-n2 white--text" color="green">ຕິດຕໍ່ Whatsapp</v-btn>
                   </div>
@@ -113,13 +113,13 @@
     </v-row>
     <!-- title category -->
     <v-row justify="center" class="text-center mt-4">
-      <v-col cols="12" sm="4" md="5">
+      <v-col cols="12" sm="5">
         <v-divider class="grey"></v-divider>
       </v-col>
-      <v-col cols="12" sm="4" md="2"
+      <v-col cols="12" sm="2"
         ><h1 class="mt-n5">ລົດລຸ້ນດຽວກັນ</h1>
       </v-col>
-      <v-col cols="12" sm="4" md="5">
+      <v-col cols="12" sm="5">
         <v-divider class="grey"></v-divider>
       </v-col>
     </v-row>
